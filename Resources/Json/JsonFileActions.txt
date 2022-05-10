@@ -1,0 +1,14 @@
+{
+	"Action":[
+		{
+			"name":"Ataque de Espada",
+			"type":"1",
+			"description":"Desfere um ataque a um alvo adjacente. Dano:1d10"
+		},
+		{
+			"name":"Rastrear animal silvestre",
+			"type":"2",
+			"description":"Permite procurar por animal selvagem como lebres e cervos."
+		}
+	]
+}

@@ -2,17 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Equipment : MonoBehaviour
+[System.Serializable]
+public class Equipment 
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public string name;
+    /* Type
+        1 - Weapon
+        2 - Armor
+        3 - Accessorie
+    */
+    public string type;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    public int ActionId;
+}
+
+[System.Serializable]
+public class EquipmentList{
+    public Equipment[] Equipment;
 }

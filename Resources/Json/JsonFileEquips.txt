@@ -1,0 +1,21 @@
+{
+	"Equipment":[
+		{
+			"name":"Espada",
+			"type":"1",
+			"ActionId":"1"
+		},
+		{
+			"name":"Armadura Couro",
+			"type":"2",
+			"ActionId":"0"
+		},
+		{
+			"name":"Chapéu de palha",
+			"type":"3",
+			"ActionId":"0"
+		}
+
+
+	]
+}

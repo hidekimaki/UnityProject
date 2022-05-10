@@ -8,8 +8,8 @@ public class AllData : ScriptableObject
 {
     public int CurrentCharacterID;
 
-    public List<Action> allActions;
+    public ActionList allActions = new ActionList();
     public List<Character> allCharacters;
-    public List<Equipment> allEquipment;
+    public EquipmentList allEquipment = new EquipmentList();
 
 }

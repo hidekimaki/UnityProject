@@ -2,17 +2,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Action : MonoBehaviour
+[System.Serializable]
+public class Action 
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public string name;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    // Type 1 - Battle Action
+    // Type 2 - Exploration Action
+    public int type;
+    public string description;
+
+
+
+}
+
+
+[System.Serializable]
+public class ActionList{
+    public Action[] Action;
 }
