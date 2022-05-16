@@ -13,3 +13,26 @@ MonoBehaviour:
   m_Name: Data
   m_EditorClassIdentifier: 
   CurrentCharacterID: 0
+  allActions:
+    Action:
+    - name: Ataque de Espada
+      type: 1
+      description: Desfere um ataque a um alvo adjacente. Dano:1d10
+    - name: Rastrear animal silvestre
+      type: 2
+      description: Permite procurar por animal selvagem como lebres e cervos.
+  allEquipment:
+    Equipment:
+    - name: Espada
+      type: 1
+      ActionId: 1
+    - name: Armadura Couro
+      type: 2
+      ActionId: 0
+    - name: "Chap\xE9u de palha"
+      type: 3
+      ActionId: 0
+  allJobs:
+    Job: []
+  allRaces:
+    Race: []

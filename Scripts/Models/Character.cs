@@ -6,6 +6,10 @@ public class Character
 {
     public string name;
 
+    public Job job;
+
+    public Race race;
+
     /*
     0-Força         1-Vitalidade    2-Resistencia
     3-Precisão      4-Evasão        5-Instinto
@@ -29,5 +33,26 @@ public class Character
     4-Accesorie
     */
     public Equipment[] equipment = new Equipment[5];
+
+    public void CalculateValues(){
+        // Pontos de vida
+        values[0] = attributes[1] * 10; 
+        // Defesa
+        values[1] = attributes[2] + attributes[4];
+        // Defesa Mágica
+        values[2] = attributes[7] + attributes[11];
+        
+        //Corpo
+        values[5] = (int)(attributes[0] + attributes[1] + attributes[2])/3;
+        //Senso
+        values[5] = (int)(attributes[3] + attributes[4] + attributes[5])/3;
+        //Alma
+        values[5] = (int)(attributes[6] + attributes[7] + attributes[8])/3;
+        //Mente
+        values[5] = (int)(attributes[9] + attributes[10] + attributes[11])/3;
+        //Social
+        values[5] = (int)(attributes[12] + attributes[13] + attributes[14])/3;
+    }
+
 
 }
