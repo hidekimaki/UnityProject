@@ -13,6 +13,13 @@ MonoBehaviour:
   m_Name: Data
   m_EditorClassIdentifier: 
   CurrentCharacterID: 0
+  allCharacters:
+  - {fileID: 11400000, guid: 83f37862e500d7849b3e21156e83e71c, type: 2}
+  - {fileID: 11400000, guid: 9c76256ad4e565742a9e86173e96dd4c, type: 2}
+  - {fileID: 11400000, guid: 96fcf3ac1d5f99d48830d64403218f36, type: 2}
+  - {fileID: 11400000, guid: 5b90a2278ecc77d4c8af08bf02652d4e, type: 2}
+  - {fileID: 11400000, guid: 47a5d8a7f1b14d44ebcdd28452d5ade8, type: 2}
+  - {fileID: 11400000, guid: f114719fbe844ac4aa5f583fdac1dd0f, type: 2}
   allActions:
     Action:
     - name: Ataque de Espada
