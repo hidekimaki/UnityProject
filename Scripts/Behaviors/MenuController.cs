@@ -35,4 +35,11 @@ public class MenuController : MonoBehaviour
         Label.text = name;
     }
 
+    public void changeCurrentPanel(){
+        if(Panels[1].activeSelf){
+            
+        }
+
+    }
+
 }
