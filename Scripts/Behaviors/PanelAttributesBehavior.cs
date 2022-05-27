@@ -1,15 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 public class PanelAttributesBehavior : MonoBehaviour
 {
-    AllData data;
-    private int tempPV = 100;
+    public Image BarraDeVida;
 
+    AllData data;
+    private float tempPV = 100;
+    private float maxPV = 100;
     public TMP_Text PVmodificator;
 
     public TMP_Text PVcounter;
+
+    public  void Start()
+    {
+        tempPV = maxPV;
+    }
 
     public void putnumberinPVMOD(string number){
         PVmodificator.text += number;
@@ -30,10 +38,13 @@ public class PanelAttributesBehavior : MonoBehaviour
 
     public void UpdatePV(){
         PVcounter.text = "PV:100/"+tempPV;
+        UpdateVisualsPV();
     }
 
-    public void teste(){
-        
+    public void UpdateVisualsPV(){
+        float aux = (float)(tempPV/maxPV);
+        print(aux);
+        BarraDeVida.fillAmount = aux;
     }
 
 
