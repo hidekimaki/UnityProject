@@ -1,14 +1,16 @@
 {
 	"Job":[
 		{
-			"name":"Aprendiz",
+			"name":"Barbaro",
 			"description":"Aprendiz é uma profissão para quem não tem definido especialidade, alguém com o objetivo de ser faz-tudo",
-			"ActionId":[1,1,1,1,1,1,1,1,1,1]
+			"ActionId":[1,2],
+			"ActionRequire":[1,1,2,2,3,4,5,6,7]
 		},
 		{
 			"name":"Soldado",
 			"description":"Soldado é a profissão focada em proteger o próximo, usando armas físicas e táticas de combate em grupo",
-			"ActionId":[2,2,2,2,2,3,3,3,3,3]
+			"ActionId":[2,2,2,2,2,3,3,3,3,3],
+			"ActionRequire":[2,2]
 		}
 	]
 }
