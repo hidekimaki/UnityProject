@@ -3,21 +3,29 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class Action 
+public class Action
 {
     public string name;
-
-    // Type 1 - Battle Action
-    // Type 2 - Exploration Action
-    public int type;
+    public string cost;
+    public int job;
+    public int type; // 1 - Active / 2 - Passive
+    public int length;
     public string description;
 
-
-
+    Action(string _name, string _cost, int _job, int _type, int _length, string _description)
+    {
+        this.name = _name;
+        this.cost = _cost;
+        this.job = _job;
+        this.type = _type;
+        this.length = _length;
+        this.description = _description;
+    }
 }
 
 
 [System.Serializable]
-public class ActionList{
+public class ActionList
+{
     public Action[] Action;
 }

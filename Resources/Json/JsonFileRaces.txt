@@ -2,48 +2,48 @@
 	"Race":[
 		{
 			"name":"Humano",
-			"imageID":0, 
+			"description":"Descrição teste de humano",
 			"ATB":[	1,1,1,
 					1,1,1,
 					1,1,1,
 					1,1,1,
-					1,1,1]
+					1,1,1],
+			"imageID":0,
+			"bonusAction":"4" 
+
 		},
 		{
 			"name":"Elfo",
-			"imageID":2, 
-			"ATB":[	2,4,1,
-					2,1,2,
-					2,4,1,
-					2,1,2,
-					2,4,1]
+			"description":"Descrição teste de elfo",
+			"ATB":[	1,1,1,
+					1,1,1,
+					1,1,1,
+					1,1,1,
+					1,1,1],
+			"imageID":0,
+			"bonusAction":"5" 
 		},
 		{
 			"name":"Anão",
-			"imageID":1, 
-			"ATB":[	2,4,1,
-					2,1,2,
-					2,4,1,
-					2,1,2,
-					2,4,1]
+			"description":"Descrição teste de Anão",
+			"ATB":[	1,1,1,
+					1,1,1,
+					1,1,1,
+					1,1,1,
+					1,1,1],
+			"imageID":0,
+			"bonusAction":"5" 
 		},
 		{
 			"name":"Draconato",
-			"imageID":3, 
-			"ATB":[	2,4,1,
-					2,1,2,
-					2,4,1,
-					2,1,2,
-					2,4,1]
-		},
-		{
-			"name":"Tiefling",
-			"imageID":4, 
-			"ATB":[	2,4,1,
-					2,1,2,
-					2,4,1,
-					2,1,2,
-					2,4,1]
+			"description":"Descrição teste de Draconato",
+			"ATB":[	1,1,1,
+					1,1,1,
+					1,1,1,
+					1,1,1,
+					1,1,1],
+			"imageID":0,
+			"bonusAction":"5" 
 		}
 	]
 }

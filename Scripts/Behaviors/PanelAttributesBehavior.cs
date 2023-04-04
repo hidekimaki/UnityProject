@@ -23,6 +23,17 @@ public class PanelAttributesBehavior : MonoBehaviour
         PVmodificator.text += number;
     }
 
+    public void modifyPV(int a){
+        if(a == 0){
+            tempPV+=1;
+        }
+        if(a == 1){
+            tempPV-=1;
+        }
+                    UpdatePV();
+
+    }
+
     public void calculate(string operation){
         if(PVmodificator.text != ""){
             if(operation == "-"){

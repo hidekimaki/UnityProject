@@ -1,14 +1,37 @@
 {
 	"Action":[
 		{
-			"name":"FÚRIA",
+			"name":"Fúria",
+			"cost":"1",
+			"job":"1",
 			"type":"1",
-			"description":"Em batalha, você luta com uma ferocidade primitiva.\n No seu turno, você pode entrar em fúria com uma ação bônus.\n Enquanto estiver em fúria, você recebe os seguintes benefícios se você não estiver vestindo uma armadura pesada:\n Você tem vantagem em testes de Força e testes de resistência de Força\n Quando você desferir um ataque com arma corpo-acorpo usando Força, você recebe um bônus nas jogadas de dano que aumenta à medida que você adquire níveis de bárbaro.\n Você possui resistência contra dano de concussão, cortante e perfurante.\n Se você for capaz de conjurar magias, você não poderá conjurá-las ou se concentrar nelas enquanto estiver em fúria.\n Sua fúria dura por 1 minuto. Ela termina prematuramente se você cair inconsciente ou se seu turno acabar e você não tiver atacado nenhuma criatura hostil desde seu último turno ou tiver sofrido dano nesse período.\n Você também pode terminar sua fúria no seu turno com uma ação bônus."
+			"length":"600",
+			"description":"Cause estado de fúria a você por 5 turnos."
 		},
 		{
-			"name":"DEFESA SEM ARMADURA",
+			"name":"Raiva",
+			"cost":"1",
+			"job":"1",
+			"type":"1",
+			"length":"600",
+			"description":"Cause estado de fúria a você por 5 turnos."
+		},
+		{
+			"name":"Força indomável",
+			"cost":"0",
+			"job":"2",
 			"type":"2",
-			"description":"teste"
+			"length":"600",
+			"description":"Quando realizar rolagem de [FORÇA] adicione +2"
+		},
+		{
+			"name":"Força indomável",
+			"cost":"0",
+			"job":"3",
+			"type":"2",
+			"length":"600",
+			"description":"Quando realizar rolagem de [FORÇA] adicione +2"
 		}
+
 	]
 }

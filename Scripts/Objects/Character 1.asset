@@ -12,30 +12,81 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 882f8796f7d6534469a4776c42621e15, type: 3}
   m_Name: Character 1
   m_EditorClassIdentifier: 
-  name: 
+  name: "alex\u200B"
+  description: "teste de descrition\u200B"
+  level: 0
+  proficiency: 0
+  physicalAttack: 0
+  physicalDefense: 0
+  psychicAttack: 0
+  psychicDefense: 0
+  magicAttack: 0
+  magicDefense: 0
+  iniciative: 0
+  desloc: 0
+  PVmax: 0
+  PV: 0
+  criticalChance: 0
+  criticalDamage: 0
   job:
-    name: 
-    description: 
-    ActionId: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
+    name: Soldado
+    id: 1
+    description: "Soldado \xE9 a profiss\xE3o focada em proteger o pr\xF3ximo, usando
+      armas f\xEDsicas e t\xE1ticas de combate em grupo"
+  JobActions: []
   race:
-    name: 
-    ATB: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    name: Humano
+    description: 
+    ATB: 010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
     imageID: 0
-  attributes: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-  values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000
-  equipment:
-  - name: 
-    type: 
-    ActionId: 0
-  - name: 
-    type: 
-    ActionId: 0
-  - name: 
-    type: 
-    ActionId: 0
-  - name: 
-    type: 
-    ActionId: 0
-  - name: 
-    type: 
-    ActionId: 0
+    bonusAction: 0
+  attributes: 
+  itemList:
+  - name: "teste name 3\u200B"
+    description: 
+    amount: 0
+  - name: teste
+    description: 2
+    amount: 1
+  raceAction:
+    name: 
+    cost: 
+    job: 0
+    type: 0
+    length: 0
+    description: 
+  IdealsAction:
+    name: 
+    cost: 
+    job: 0
+    type: 0
+    length: 0
+    description: 
+  FlawAction:
+    name: Caridade
+    cost: 0
+    job: 0
+    type: 0
+    length: 300
+    description: "Voc\xEA gosta de ajudar os necessitados"
+  BackgroundAction:
+    name: 
+    cost: 
+    job: 0
+    type: 0
+    length: 0
+    description: 
+  BoundsAction:
+    name: 
+    cost: 
+    job: 0
+    type: 0
+    length: 0
+    description: 
+  PersonalityAction:
+    name: 
+    cost: 
+    job: 0
+    type: 0
+    length: 0
+    description: 

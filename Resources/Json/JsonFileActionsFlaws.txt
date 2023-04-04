@@ -1,0 +1,109 @@
+{
+	"Action":[
+		{
+			"name":"Ambição",
+			"cost":"0",
+			"job":"0",
+			"type":"0",
+			"length":"300",
+			"description":"Se eu tiver o poder posso obter o que desejo"
+		},
+		{
+			"name":"Ganancia",
+			"cost":"0",
+			"job":"0",
+			"type":"0",
+			"length":"300",
+			"description":"Sempre farei o que me render mais dinheiro"
+		},
+		{
+			"name":"Honra",
+			"cost":"0",
+			"job":"0",
+			"type":"0",
+			"length":"300",
+			"description":"Defendo sempre a honra do meu clã"
+		},
+		{
+			"name":"Tradição",
+			"cost":"0",
+			"job":"0",
+			"type":"0",
+			"length":"300",
+			"description":"Espalhar e manter as lendas e musicas passadas a mim"
+		},
+		{
+			"name":"Destino",
+			"cost":"0",
+			"job":"0",
+			"type":"0",
+			"length":"300",
+			"description":"Eu acredito no destino designado a mim"
+		},
+		{
+			"name":"Aspiração",
+			"cost":"0",
+			"job":"0",
+			"type":"0",
+			"length":"300",
+			"description":"Eu criarei o melhor de todos os trabalhos neste mundo"
+		},
+		{
+			"name":"Orgulhoso",
+			"cost":"0",
+			"job":"0",
+			"type":"1",
+			"length":"300",
+			"description":"Reduza pela metade o valor de uma rolagem social após ser ofendido. Ganhe um ponto de narrativa."
+		},
+		{
+			"name":"Avarento",
+			"cost":"0",
+			"job":"0",
+			"type":"1",
+			"length":"300",
+			"description":"Reduza pela metade o valor de uma rolagem social após gastar dinheiro. Ganhe um ponto de narrativa."
+		},
+		{
+			"name":"Fanatismo",
+			"cost":"0",
+			"job":"0",
+			"type":"1",
+			"length":"300",
+			"description":"Reduza pela metade o valor de uma rolagem social após encontrar seu objeto de fanatismo. Ganhe um ponto de narrativa."
+		},
+		{
+			"name":"Alcolatra",
+			"cost":"0",
+			"job":"0",
+			"type":"1",
+			"length":"300",
+			"description":"Reduza pela metade o valor de uma rolagem após consumir alcool. Ganhe um ponto de narrativa."
+		},
+		{
+			"name":"Ansiedade",
+			"cost":"0",
+			"job":"0",
+			"type":"1",
+			"length":"300",
+			"description":"Reduza pela metade o valor de uma rolagem durante a preparação de um grande evento. Ganhe um ponto de narrativa."
+		},	
+		{
+			"name":"Fofoqueiro",
+			"cost":"0",
+			"job":"0",
+			"type":"1",
+			"length":"300",
+			"description":"Reduza pela metade o valor de uma rolagem social para diseminar todas as informações que tiver. Ganhe um ponto de narrativa."
+		},	
+		{
+			"name":"Glutão",
+			"cost":"0",
+			"job":"0",
+			"type":"1",
+			"length":"300",
+			"description":"Reduza pela metade o valor de uma rolagem social após consumir todo alimento disponível. Ganhe um ponto de narrativa."
+		}
+
+	]
+}

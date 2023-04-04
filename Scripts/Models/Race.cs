@@ -10,10 +10,11 @@ public class Race
     public string description;
 
    public int[] ATB = new int[15];
-
+   
    public int imageID;
 
-   
+   public int bonusAction;
+
 }
 
 [System.Serializable]

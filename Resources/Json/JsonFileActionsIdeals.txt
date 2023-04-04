@@ -1,0 +1,86 @@
+{
+	"Action":[
+		{
+			"name":"Caridade",
+			"cost":"0",
+			"job":"0",
+			"type":"0",
+			"length":"300",
+			"description":"Você gosta de ajudar os necessitados"
+		},
+		{
+			"name":"Respeito",
+			"cost":"0",
+			"job":"0",
+			"type":"0",
+			"length":"300",
+			"description":"Todos merecem ser tratados com dignidade e respeito"
+		},
+		{
+			"name":"Cada um na sua",
+			"cost":"0",
+			"job":"0",
+			"type":"0",
+			"length":"300",
+			"description":"Não me intrometo na vida dos outros, evito problemas"
+		},
+		{
+			"name":"Uma mão lava a outra",
+			"cost":"0",
+			"job":"0",
+			"type":"0",
+			"length":"300",
+			"description":"Ajudo os que me ajudam ou que podem me ajudar depois"
+		},
+		{
+			"name":"Ambição",
+			"cost":"0",
+			"job":"0",
+			"type":"0",
+			"length":"300",
+			"description":"Se eu tiver o poder posso obter o que desejo"
+		},
+		{
+			"name":"Ganancia",
+			"cost":"0",
+			"job":"0",
+			"type":"0",
+			"length":"300",
+			"description":"Sempre farei o que me render mais dinheiro"
+		},
+		{
+			"name":"Honra",
+			"cost":"0",
+			"job":"0",
+			"type":"0",
+			"length":"300",
+			"description":"Defendo sempre a honra do meu clã"
+		},
+		{
+			"name":"Tradição",
+			"cost":"0",
+			"job":"0",
+			"type":"0",
+			"length":"300",
+			"description":"Espalhar e manter as lendas e musicas passadas a mim"
+		},
+		{
+			"name":"Destino",
+			"cost":"0",
+			"job":"0",
+			"type":"0",
+			"length":"300",
+			"description":"Eu acredito no destino designado a mim"
+		},
+		{
+			"name":"Aspiração",
+			"cost":"0",
+			"job":"0",
+			"type":"0",
+			"length":"300",
+			"description":"Eu criarei o melhor de todos os trabalhos neste mundo"
+		}
+		
+
+	]
+}
